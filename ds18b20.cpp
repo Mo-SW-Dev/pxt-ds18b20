@@ -6,21 +6,24 @@ using namespace pxt;
 
 namespace DS18B20 {
     
-    MicroBitPin  pin = &uBit.io.P0;
+    //MicroBitPin  pin = &uBit.io.P0;
     MicroBit uBit;
 
     int16_t Temperature(int p) {
-        switch(p){
-          case 0: pin = &uBit.io.P12; break; //P0
-          case 1: pin = &uBit.io.P0; break; //P1
-          case 2: pin = &uBit.io.P1; break; //P2
-          case 3: pin = &uBit.io.P16; break; //P3          
-          case 4: pin = &uBit.io.P2; break; //C16
-          case 5: pin = &uBit.io.P8; break; //C17
-          case 6: pin = &uBit.io.P18; break; //C18
-          case 7: pin = &uBit.io.P19; break; //C19
-          default: pin = &uBit.io.P0;
-        }
+        uBit.init();
+        uBit.display.scroll("NEW PROGRAM");
+        return 5;
+        //switch(p){
+        //  case 0: pin = &uBit.io.P12; break; //P0
+        //  case 1: pin = &uBit.io.P0; break; //P1
+        //  case 2: pin = &uBit.io.P1; break; //P2
+        //  case 3: pin = &uBit.io.P16; break; //P3          
+        //  case 4: pin = &uBit.io.P2; break; //C16
+        //  case 5: pin = &uBit.io.P8; break; //C17
+        //  case 6: pin = &uBit.io.P18; break; //C18
+        //  case 7: pin = &uBit.io.P19; break; //C19
+        //  default: pin = &uBit.io.P0;
+        //}
 
         init();
         writeByte(0xCC);
