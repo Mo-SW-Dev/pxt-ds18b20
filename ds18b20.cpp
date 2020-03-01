@@ -81,10 +81,10 @@ namespace DS18B20 {
         return byte;
     }
     
-        int16_t Temperature(int p) {
+    int16_t Temperature(int p) {
         uBit.init();
         uBit.display.scroll("NEW PROGRAM");
-        return 5;
+        return p;
         //switch(p){
         //  case 0: pin = uBit.io.P12; break; //P0
         //  case 1: pin = uBit.io.P0; break; //P1
