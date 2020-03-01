@@ -7,7 +7,7 @@ using namespace pxt;
 namespace DS18B20 {
     
     MicroBitPin  pin = uBit.io.P0;
-    MicroBit uBit;
+    //MicroBit uBit;
 
     int16_t Temperature(int p) {
         //uBit.init();
