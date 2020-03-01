@@ -10,9 +10,9 @@ namespace DS18B20 {
     MicroBit uBit;
 
     int16_t Temperature(int p) {
-        uBit.init();
-        uBit.display.scroll("NEW PROGRAM");
-        return 5;
+        //uBit.init();
+        //uBit.display.scroll("NEW PROGRAM");
+        //return 5;
         switch(p){
           case 0: pin = uBit.io.P12; break; //P0
           case 1: pin = uBit.io.P0; break; //P1
