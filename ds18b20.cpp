@@ -21,7 +21,7 @@ namespace DS18B20 {
           case 4: pin = uBit.io.P2; break; //C16
           case 5: pin = uBit.io.P8; break; //C17
           //case 6: pin = uBit.io.P18; break; //C18
-          //case 7: pin = uBit.io.P19; break; //C19
+          case 7: pin = uBit.io.P19; break; //C19
           default: pin = uBit.io.P0;
         }
 
