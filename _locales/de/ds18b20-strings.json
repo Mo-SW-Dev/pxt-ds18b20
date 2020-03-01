@@ -1,0 +1,5 @@
+{
+  "DS18B20.TemperatureString|block": "Temperatur als Text von Pin |%p|",
+  "DS18B20.TemperatureNumber|block": "Temperatur als Zahl von Pin |%p|",
+  "DS18B20.WriteTemperature|block": "Schreibe Temperatur von Pin |%p|"
+}

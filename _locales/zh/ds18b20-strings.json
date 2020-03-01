@@ -1,0 +1,5 @@
+{
+  "DS18B20.TemperatureString|block": "|%p|读取温度",
+  "DS18B20.TemperatureNumber|block": "|%p|读取温度2",
+  "DS18B20.WriteTemperature|block": "读取温度 |%p|"
+}
