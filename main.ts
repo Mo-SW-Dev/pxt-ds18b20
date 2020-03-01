@@ -29,7 +29,7 @@ namespace DS18B20 {
         //% block=C18
         pin18 = 6,
         //% block=C19
-        pin19 = 7
+        pin19 = 7,
 }
     
     //% shim=DS18B20::Temperature
